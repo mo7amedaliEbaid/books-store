@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:books/core/api/api.dart';
-import 'package:books/core/model/Books.dart';
-import 'package:books/core/model/DetailModel.dart';
+import 'package:books/core/model/books_model.dart';
+import 'package:books/core/model/bookdetails_model.dart';
 import 'package:flutter/cupertino.dart';
 
 class AppNotifier extends ChangeNotifier {

@@ -5,7 +5,7 @@ import 'dart:math' as math;
 
 import '../../app/constants/constants.dart';
 import '../../app/notifiers/app_notifier.dart';
-import '../../core/model/Books.dart';
+import '../../core/model/books_model.dart';
 import 'detail_screen.dart';
 
 class CustomSearchDelegate extends SearchDelegate {
@@ -63,7 +63,7 @@ class CustomSearchDelegate extends SearchDelegate {
                           MaterialPageRoute(
                               builder: (context) => DetailsScreen(
                                     id: snapshot.data?.items?[index].id,
-                                    boxColor: AppColors.lightBlue,
+                                    boxColor: AppColors.lightgreen,
                                   )));
                     },
                     leading: Image.network(
@@ -115,7 +115,7 @@ class CustomSearchDelegate extends SearchDelegate {
                             MaterialPageRoute(
                                 builder: (context) => DetailsScreen(
                                       id: snapshot.data?.items?[index].id,
-                                      boxColor: AppColors.lightBlue,
+                                      boxColor: AppColors.lightgreen,
                                     )));
                       },
                       leading: Image.network(

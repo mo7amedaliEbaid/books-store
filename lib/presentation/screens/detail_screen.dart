@@ -1,5 +1,5 @@
 import 'package:books/app/notifiers/app_notifier.dart';
-import 'package:books/core/model/DetailModel.dart';
+import 'package:books/core/model/bookdetails_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:readmore/readmore.dart';

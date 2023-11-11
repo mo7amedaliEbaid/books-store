@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'dart:math' as math;
 
-import '../../core/model/Books.dart';
+import '../../core/model/books_model.dart';
 
 class BookList extends StatelessWidget {
   BookList({Key? key, required this.name}) : super(key: key);
@@ -118,7 +118,7 @@ class BookList extends StatelessWidget {
                                         maxLines: 1,
                                         style: Theme.of(context)
                                             .textTheme
-                                            .headline4
+                                            .headlineMedium
                                             ?.copyWith(
                                               fontSize:
                                                   constraints.maxWidth * 0.09,
@@ -130,7 +130,7 @@ class BookList extends StatelessWidget {
                                         overflow: TextOverflow.ellipsis,
                                         style: Theme.of(context)
                                             .textTheme
-                                            .headline4
+                                            .headlineMedium
                                             ?.copyWith(
                                                 fontSize:
                                                     constraints.maxWidth * 0.09,

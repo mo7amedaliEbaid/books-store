@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../../app/constants/constants.dart';
 import '../../../app/notifiers/app_notifier.dart';
-import '../../../core/model/Books.dart';
+import '../../../core/model/books_model.dart';
 import '../../screens/detail_screen.dart';
 
 class HorrorBooks extends StatelessWidget {
